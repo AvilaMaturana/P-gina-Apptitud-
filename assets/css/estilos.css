@@ -1,17 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap');
-/* *{
+
+:root{
+    --primary-color: #629cce;
+    --navbar-font: 'Ubuntu', sans-serif;
+    --tittle-font: 'Poppins', sans-serif;
+
+}
+
+*{
     border: 1px solid red;
-} */
+}
 
 .navbar .container img {
     width: 8em;
     height: auto;
-    object-fit: cover;
+    object-fit: cover; 
 
 }
 
+nav .nav-item{
+    font-family: var(--navbar-font);
+    font-size: 12px;
+    
+}
+
+
 .bg-info {
-    background-color: #629cce!important;
+    background-color: var(--primary-color)!important;
 }
 
 .py-6 {
