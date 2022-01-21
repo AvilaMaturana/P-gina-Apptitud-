@@ -11,6 +11,12 @@
     border: 1px solid red;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+/* NABVAR */
+
 .navbar .container img {
     width: 8em;
     height: auto;
@@ -39,4 +45,75 @@ nav .nav-item{
 .py-6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+}
+
+/* HERO SECTION */
+
+#herramienta h1 {
+    font-family: var(--tittle-font);
+    font-size: 2.25rem;
+}
+
+#herramienta p {
+    font-family: var(--navbar-font);
+    font-size: 1.125rem;
+}
+
+#herramienta img {
+    width: 18.125rem;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 992px){
+
+    #herramienta h1 {        
+        font-size: 1.5rem;
+    }
+
+    #herramienta p {        
+        font-size: 0.875rem;
+    }
+
+    #herramienta img {
+        width: 12.5rem;
+        height: auto;
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    #herramienta h1 {        
+        font-size: 1.25rem;
+    }
+
+    #herramienta p {        
+        font-size: 0.75rem;
+    }
+
+    #herramienta img {
+        width: 10.625rem;
+        height: auto;
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    #herramienta #textoHero {        
+        margin: 0 2rem;
+        
+    }    
+
+}
+
+
+/* EXPERIENCIA */
+
+#experiencia h2 {
+    font-family: var(--tittle-font);
+    color: var(--primary-color);
 }
