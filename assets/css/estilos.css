@@ -4,7 +4,7 @@
     --primary-color: #629cce;
     --navbar-font: 'Ubuntu', sans-serif;
     --tittle-font: 'Poppins', sans-serif;
-
+   
 }
 
 *{
@@ -116,4 +116,46 @@ nav .nav-item{
 #experiencia h2 {
     font-family: var(--tittle-font);
     color: var(--primary-color);
+}
+
+#experiencia span {
+    font-style: italic;
+    font-family: var(--tittle-font);
+    font-size: 0.875rem;
+    color: #15315f;
+    font-weight: regular;
+}
+
+#experiencia p {    
+    font-family: var(--navbar-font);
+    font-size: 0.875rem;
+    color: #15315f;
+    font-weight: regular;
+}
+
+@media (max-width: 1200px){
+
+    #experiencia span, p {        
+        font-size: 0.75rem;        
+        
+    }    
+
+    #experiencia img {        
+        margin-top: 2.5rem;    
+        
+    }  
+
+}
+
+@media (max-width: 992px){
+
+    #experiencia {        
+        text-align: center;
+        align-items: center;     
+        
+    } 
+}
+
+#experiencia img {
+  margin-right: 10rem!important;
 }
