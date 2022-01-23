@@ -163,6 +163,11 @@ nav .nav-item{
 
 /* ASOCIACIONES */
 
+#asociaciones h2{
+    font-family: var(--tittle-font);
+    color: var(--primary-color);
+}
+
 #asociaciones #utem img{
     width: 25rem;
     height: auto;
@@ -176,4 +181,44 @@ nav .nav-item{
 
 #asociaciones .container img{
     vertical-align: middle;
+}
+
+@media (max-width: 992px){
+
+    #asociaciones #utem img{
+        width: 18.75rem;
+        height: auto;
+        
+    }
+
+    #asociaciones #mineduc img{
+        width: 9.375rem;
+        height: auto;
+    }
+    
+
+}
+
+
+@media (max-width: 576px){
+
+    #asociaciones #utem img{
+        width: 9.375rem;
+        height: auto;
+        
+    }
+
+    #asociaciones #mineduc img{
+        width: 6.255rem;
+        height: auto;
+    }
+    
+
+}
+
+
+/* ACCESO */
+
+#acceso {
+    background-color: var(--primary-color);
 }
