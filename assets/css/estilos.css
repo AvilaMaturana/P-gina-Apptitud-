@@ -159,3 +159,21 @@ nav .nav-item{
 #experiencia img {
   margin-right: 10rem!important;
 }
+
+
+/* ASOCIACIONES */
+
+#asociaciones #utem img{
+    width: 25rem;
+    height: auto;
+    margin: 40px 0;
+}
+
+#asociaciones #mineduc img{
+    width: 12.5rem;
+    height: auto;
+}
+
+#asociaciones .container img{
+    vertical-align: middle;
+}
