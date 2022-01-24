@@ -222,3 +222,12 @@ nav .nav-item{
 #acceso {
     background-color: var(--primary-color);
 }
+
+#acceso #form {
+    background-image: url(../img/fondo\ base.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;   
+    object-fit: cover;
+    border-radius: 40px;
+}

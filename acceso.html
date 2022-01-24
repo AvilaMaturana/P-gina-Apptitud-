@@ -75,18 +75,27 @@
                 <p>Tannenbaum 511, <br> San Miguel, Santiago</p>
             </div>
         </div> 
-        <div id="form" class="col-12 col-md-6">
-            <form>
+        <div id="form" class="col-12 col-md-6 py-5 ">
+
+            <form class="px-5">
+
+              <h4>¡Envianos un mensaje</h4>
+              <div class="mb-3">
+                
+                <input type="name" class="form-control text-center rounded-pill" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Nombre" >                   
+              </div> 
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Disabled input" >                   
+                 
+                  <input type="email" class="form-control text-center rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo" >                   
                 </div>               
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                   
+                    <textarea class="form-control text-center rounded-5" id="exampleFormControlTextarea1" rows="10" placeholder="Mensaje"></textarea>
                   </div>
                
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="text-end py-2">
+                  <button type="submit" class="btn btn-md btn-primary px-5 rounded-pill">Enviar</button>
+                </div>
               </form>
         </div>   
     </div>
