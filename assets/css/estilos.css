@@ -229,5 +229,33 @@ nav .nav-item{
     background-repeat: no-repeat; 
     background-position: center center;   
     object-fit: cover;
-    border-radius: 40px;
+    border-radius: 40px;       
+}
+
+#acceso h4{
+    color: var( --primary-color);
+    font-family: var(--tittle-font);
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color:#15315f!important;
+}
+
+#acceso textarea{
+    border-radius: 1em;
+}
+
+#acceso p {
+    font-family: var(--navbar-font);
+    color: white;
+}
+
+#acceso #iconoUno, #textoUno {
+   vertical-align: middle;
+}
+
+#acceso .textoIconos {
+    align-items: center;
+    margin: auto auto;
 }

@@ -62,37 +62,36 @@
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-6">
+           <div class="textoIconos">
             <div>
-                <img src="assets/img/mail.png" alt="">
-                <p>consultas@apptitud.cl</p>
-            </div>
-            <div>
-                <img src="assets/img/telefono.png" alt="">
-                <p>+56978329227</p>
-            </div>
-            <div>
-                <img src="assets/img/lugar.png" alt="">
-                <p>Tannenbaum 511, <br> San Miguel, Santiago</p>
-            </div>
+              <img src="assets/img/mail.png" alt="icono-correo" class="d-inline-block">
+              <p class="d-inline-block">consultas@apptitud.cl</p>
+          </div>
+          <div>
+              <img src="assets/img/telefono.png" alt="icono-telefono" class="d-inline-block">
+              <p class="d-inline-block">+56978329227</p>
+          </div>
+          <div>
+              <img id="iconoUno" src="assets/img/lugar.png" alt="icono-mapas" class="d-inline-block">
+              <p id="textoUno" class="d-inline-block mb-0">Tannenbaum 511, <br> San Miguel, Santiago</p>
+          </div>
+           </div>
         </div> 
         <div id="form" class="col-12 col-md-6 py-5 ">
 
-            <form class="px-5">
+            <form class="px-4">
 
-              <h4>¡Envianos un mensaje</h4>
-              <div class="mb-3">
-                
-                <input type="name" class="form-control text-center rounded-pill" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Nombre" >                   
+              <h4 class="pb-2">¡Envianos un mensaje!</h4>
+
+              <div class="mb-3">                
+                <input type="name" class="form-control text-center rounded-pill shadow" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Nombre" >                   
               </div> 
-                <div class="mb-3">
-                 
-                  <input type="email" class="form-control text-center rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo" >                   
+                <div class="mb-3">                 
+                  <input type="email" class="form-control text-center rounded-pill shadow" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo" >                   
                 </div>               
-                <div class="mb-3">
-                   
-                    <textarea class="form-control text-center rounded-5" id="exampleFormControlTextarea1" rows="10" placeholder="Mensaje"></textarea>
-                  </div>
-               
+                <div class="mb-3">                   
+                    <textarea class="form-control text-center rounded-5 shadow" id="exampleFormControlTextarea1" rows="10" placeholder="Mensaje"></textarea>
+                  </div>               
                 <div class="text-end py-2">
                   <button type="submit" class="btn btn-md btn-primary px-5 rounded-pill">Enviar</button>
                 </div>
