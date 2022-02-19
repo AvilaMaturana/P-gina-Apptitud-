@@ -25,6 +25,12 @@ body{
 
 }
 
+nav .navbar-item  {
+    color: red!important;
+    
+}
+
+
 nav .nav-item{
     font-family: var(--navbar-font);
     font-size: 12px;    
