@@ -7,9 +7,10 @@
    
 }
 
-*{
+/* *{
     border: 1px solid red;
-}
+} */
+
 
 body{
     overflow-x: hidden;
@@ -255,7 +256,21 @@ nav .nav-item{
    vertical-align: middle;
 }
 
-#acceso .textoIconos {
-    align-items: center;
-    margin: auto auto;
+#acceso .row #textoUno{
+    text-align: left;
 }
+
+/* APPLOGIN */
+
+#appLogin img {
+    width: 25rem;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
