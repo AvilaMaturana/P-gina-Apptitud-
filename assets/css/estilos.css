@@ -25,15 +25,15 @@ body{
 
 }
 
-nav .navbar-item  {
-    color: red!important;
-    
-}
 
 
 nav .nav-item{
     font-family: var(--navbar-font);
-    font-size: 12px;    
+    font-size: 12px;        
+}
+
+.navbar-dark{
+    color: #15315f!important;
 }
 
 .me-6{
@@ -41,9 +41,9 @@ nav .nav-item{
     
 }
 
-.nav-link{
+/* .nav-link{
     color: rgb(0, 0, 0)!important;
-}
+} */
 
 .bg-info {
     background-color: var(--primary-color)!important;
