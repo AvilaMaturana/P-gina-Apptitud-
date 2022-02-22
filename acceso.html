@@ -96,7 +96,29 @@
                     <textarea class="form-control text-center rounded-5 shadow" id="exampleFormControlTextarea1" rows="10" placeholder="Mensaje"></textarea>
                   </div>               
                 <div class="text-end py-2">
-                  <button type="submit" class="btn btn-md btn-primary px-5 rounded-pill">Enviar</button>
+                  <button type="submit" class="btn btn-md btn-primary px-5 rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        
+                        <div class="modal-body mx-5">
+                          <div class="text-center btn-primary rounded-pill py-3 fw-bold">
+                            ¡Tu mensaje <br> ha sido enviado <br>
+                            con éxito!
+                          </div>
+                        </div>
+                        <div class="modal-body mx-5">
+                          <div id="textoModal" class="text-center py-3 fw-bold">
+                            Nos pondremos <br> en contacto a la <br>
+                            brevedad
+                          </div>
+                        </div>
+                        <div class="modal-footer">                         
+                          <button type="submit" class="btn btn-md bg-info px-5 rounded-pill fw-normal text-white" >Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </form>
         </div>   
