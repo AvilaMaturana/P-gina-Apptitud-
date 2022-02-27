@@ -25,6 +25,10 @@ body{
 
 }
 
+.navbar .navbar-toggler-icon{
+    color: rgb(0, 0, 0)!important;
+}
+
 .navbar-nav a{
     color: rgb(0, 0, 0);
 }
@@ -171,6 +175,48 @@ nav .nav-item{
   margin-right: 10rem!important;
 }
 
+/* FUNCIONAMIENTO */
+
+#funcionamiento h2 {
+    font-family: var(--tittle-font);
+    color: var(--primary-color);
+}
+
+#funcionamiento img{
+    width: 35rem;
+    height: auto;
+    object-fit: cover;
+}
+
+#funcionamiento .carousel-control-prev-icon{
+    background-image: url(../img/carousel-izquierda.svg);
+}
+
+
+#funcionamiento .carousel-control-next-icon{
+    background-image: url(../img/carousel-derecha.svg);
+}
+
+@media (max-width: 768px){
+
+    #funcionamiento img{
+        width: 25rem;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    #funcionamiento img{
+        width: 15rem;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
 
 /* ASOCIACIONES */
 
@@ -180,13 +226,13 @@ nav .nav-item{
 }
 
 #asociaciones #utem img{
-    width: 25rem;
+    width: 20rem;
     height: auto;
     margin: 40px 0;
 }
 
 #asociaciones #mineduc img{
-    width: 12.5rem;
+    width: 10rem;
     height: auto;
 }
 
@@ -197,13 +243,13 @@ nav .nav-item{
 @media (max-width: 992px){
 
     #asociaciones #utem img{
-        width: 18.75rem;
+        width: 15rem;
         height: auto;
         
     }
 
     #asociaciones #mineduc img{
-        width: 9.375rem;
+        width: 8rem;
         height: auto;
     }
     
