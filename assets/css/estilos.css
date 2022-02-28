@@ -316,6 +316,18 @@ nav .nav-item{
     text-align: left;
 }
 
+@media (min-width: 200px){
+
+    .textoIconos{
+        padding-top: 0!important;
+        margin-top: 0!important;
+        padding-bottom: 6rem!important;
+    }
+    
+
+}
+
+
 /* APPLOGIN */
 
 #appLogin img {
