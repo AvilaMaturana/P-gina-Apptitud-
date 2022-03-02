@@ -30,7 +30,7 @@ body{
 }
 
 .navbar-nav a{
-    color: rgb(0, 0, 0);
+    color: #15315f;
 }
 
 
@@ -61,6 +61,8 @@ nav .nav-item{
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
+
+
 
 /* HERO SECTION */
 
@@ -316,15 +318,33 @@ nav .nav-item{
     text-align: left;
 }
 
-@media (min-width: 200px){
+@media (max-width: 768px){
 
     .textoIconos{
         padding-top: 0!important;
         margin-top: 0!important;
         padding-bottom: 6rem!important;
     }
+
+    #form{
+        padding-top: 2rem!important;
+        
+    }
     
 
+}
+
+@media (max-width: 576px){
+
+  
+    
+    
+    #form form {
+        padding-left: 0.5rem!important;
+        padding-right: 0.5rem!important;
+    }
+
+   
 }
 
 
